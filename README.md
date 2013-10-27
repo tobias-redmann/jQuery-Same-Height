@@ -17,3 +17,5 @@ To make them the same height we can use just this
 Now all boxes should have the same height.
 
 For more information and contact go to [http://www.tricd.de](http://www.tricd.de)
+
+Demo: [jQuery Same Height Demo](http://www.tricd.de/demo/jquery-same-height.html)
