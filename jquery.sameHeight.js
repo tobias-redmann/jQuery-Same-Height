@@ -1,14 +1,14 @@
 (function ( $ ) {
 
   
-  $.fn.sameHeight = function(selector) {
+  $.fn.sameHeight = function() {
 
     // set to auto to get natural box sizes
-    $(selector).css('height', 'auto');
+    $(this).css('height', 'auto');
   
     var highest_size = 0;
   
-    $(selector).each(function(){
+    $(this).each(function(){
   
       var size = $(this).outerHeight();  
     
@@ -17,7 +17,7 @@
     });
   
   
-    $(selector).css('height', highest_size + 'px');
+    $(this).css('height', highest_size + 'px');
     
     
     return this;
