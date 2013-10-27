@@ -8,7 +8,7 @@
   
     var highest_size = 0;
   
-    $('.string_box').each(function(){
+    $(selector).each(function(){
   
       var size = $(this).outerHeight();  
     
